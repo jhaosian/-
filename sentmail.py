@@ -26,4 +26,4 @@ while True:
         if site['Site'] == '仁武':
             sentmail('PM2.5='+site['PM25'])
             break
-    time.sleep(60*60)
+    time.sleep(60)
